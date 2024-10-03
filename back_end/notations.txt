@@ -1,0 +1,21 @@
+biome => organiza/identa o codigo ao salvar
+drizzle => gerenciar migrations do DB e facilita alguns processos
+@paralleldrive/cuid2 => gera id aleatorios
+zod => trata validações/permite obrigar alguns casos
+dayjs => dependencia para trabalhar com datas (Cético quanto ao uso !)
+
+fastify -> framework (tipo o express)
+fastify-type-provider-zod => integra o zod ao fastify e facilita na hora de restringir 
+                             dados que vem do body de uma requisição
+
+database online: https://neon.tech
+
+
+typescript config : 
+    dependencias p/ instalar:
+        typescript, instala as dependencias do ts
+        @types/node, - configura o ts no node
+        tsx, - executa comandos/arquivos .ts e basicamente age como 
+               o nodemon do typescript
+        tsconfig.json -> google -> tsconfig => gihub -> node(na versão que vc estiver usando) 
+                            e copia o arquivo tsconfig
